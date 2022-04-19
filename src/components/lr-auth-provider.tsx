@@ -87,7 +87,8 @@ const LRAuthProvider = ({
     dispatch({ type: "LOGIN_POPUP_COMPLETE", user });
   }, [client]);
   return (
-    <div className="lr_r_sdk_main">
+    // <div className="lr_r_sdk_main">
+    <>
       <LRContext.Provider
         value={
           {
@@ -101,7 +102,8 @@ const LRAuthProvider = ({
       >
         {children}
       </LRContext.Provider>
-    </div>
+    </>
+    // </div>
   );
 };
 

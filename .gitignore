@@ -3,3 +3,4 @@ build/
 storybook-static/
 .history/
 .DS_Store
+.idea/
